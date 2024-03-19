@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARRAYS</title>
+  </head>
+  <body>
+    <h1>JavaScript Arrays</h1>
+
+    <p id="demo"></p>
+    <h2>Bracket Indexing</h2>
+
+    <p>
+      JavaScript array elements are accessed using numeric indexes (starting
+      from 0).
+    </p>
+
+    <p id="demo1"></p>
+    <p>
+      JavaScript array elements are accessed using numeric indexes for changing
+      an array (starting from 0).
+    </p>
+
+    <p id="demo2"></p>
+    <p>converting array to string</p>
+    <p id="demo3"></p>
+    <p>Arrays use numbers to access its elements.</p>
+    <p id="demo4"></p>
+    <p>The length property returns the length of an array:</p>
+
+    <p id="demo5"></p>
+    <p>The push method appends a new element to an array.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo6"></p>
+    <h2>array at() method</h2>
+    <p>
+      The at() method returns an indexed element from an array: as in ["Banana",
+      "Orange", "Apple", "Mango"]
+    </p>
+
+    <p id="demo7"></p>
+    <h2>The join() Method</h2>
+
+    <p>The join() method joins array elements into a string.</p>
+    <p>
+      It this example we have used " * " as a separator between the elements:
+    </p>
+
+    <p id="demo8"></p>
+    <h2>The pop() Method</h2>
+
+    <p>The pop() method removes the last element from an array.</p>
+
+    <p id="demo9"></p>
+    <p id="demo10"></p>
+    <h2>The push() Method</h2>
+
+    <p>The push() method appends a new element to an array:</p>
+
+    <p id="demo11"></p>
+    <p id="demo12"></p>
+    <h2>The shift() Method</h2>
+
+    <p>
+      The shift() method removes the first element of an array (and "shifts" the
+      other elements to the left):
+    </p>
+
+    <p id="demo13"></p>
+    <p id="demo14"></p>
+    <h2>The unshift() Method</h2>
+
+    <p>The unshift() method adds new elements to the beginning of an array:</p>
+
+    <p id="demo15"></p>
+    <p id="demo16"></p>
+    <h2>The concat() Method</h2>
+
+    <p>
+      The concat() method merges (concatenates) arrays: as in myGirls =
+      ["Cecilie", "Lone"]; and myBoys = ["Emil", "Tobias", "Linus"]
+    </p>
+
+    <p id="demo17"></p>
+    <h2>The copyWithin() Method</h2>
+    <p>
+      copyWithin() copies array elements to another position in an array,
+      overwriting existing values:
+    </p>
+    <p>Copy to index 2, all elements from index 0:</p>
+
+    <p id="demo18"></p>
+    <pre>
+Note :-
+        The copyWithin() method overwrites the existing values.
+        
+        The copyWithin() method does not add items to the array.
+        
+        The copyWithin() method does not change the length of the array.
+        
+        </pre
+    >
+    <pre>  <h1>Flattening an Array </h1>
+           :- Flattening an array is the process of reducing the dimensionality of an array.
+            
+          :-  Flattening is useful when you want to convert a multi-dimensional array into a one-dimensional array.
+            
+            </pre>
+    <h2>The flat() Method</h2>
+    <p>myArr = [[1,2],[3,4],[5,6]]</p>
+    <p id="demo19"></p>
+
+    <h2>array sort() method</h2>
+    <p>it sort the array in alphabatic order</p>
+    <p>fruit = ["Banana", "Orange", "Apple", "Mango"]; sort to</p>
+    <p>Apple,Banana,Mango,Orange</p>
+
+    <h2>The splice() Method</h2>
+
+    <p>The splice() method adds new elements to an array:</p>
+
+    <p id="demo20"></p>
+    <p id="demo21"></p>
+    <p>
+      1. The first parameter (2) defines the position where new elements should
+      be added (spliced in). <br />
+
+      2. The second parameter (0) defines how many elements should be removed.
+      <br />
+
+      3. The rest of the parameters ("Lemon" , "Kiwi") define the new elements
+      to be added. <br />
+
+      4. The splice() method returns an array with the deleted items:
+    </p>
+    <h2>
+      <p>
+        The splice() method adds new elements to an array, and returns an array
+        with the deleted elements (if any):
+      </p>
+    </h2>
+    <p id="demo22"></p>
+    <p id="demo23"></p>
+    <p id="demo24"></p>
+
+    <h2>The splice() methods can be used to remove array elements:</h2>
+
+    <p id="demo25"></p>
+    <p id="demo26"></p>
+    <p>
+      The first parameter (0) defines the position where new elements should be
+      added (spliced in). <br />
+
+      The second parameter (1) defines how many elements should be removed.
+      <br />
+
+      The rest of the parameters are omitted. No new elements will be added.
+    </p>
+
+    <h1>The toSpliced() Method</h1>
+
+    <p id="demo27"></p>
+    <p id="demo28"></p>
+    <p>
+      The difference between the new toSpliced() method and the old splice()
+      method is that the new method creates a new array, keeping the original
+      array unchanged, while the old method altered the original array.
+    </p>
+    <h1>The slice() Method</h1>
+    <p>
+      Slice out a part of an array starting from array element 1 ("Orange"):
+    </p>
+
+    <p id="demo29"></p>
+    <b
+      >Note :- <br />
+      The slice() method creates a new array. <br />
+
+      The slice() method does not remove any elements from the source array.
+    </b>
+    <pre>EXAMPLE:-</pre>
+    <p>Slice out a part of an array starting from array element 3 ("Apple")</p>
+
+    <p id="demo30"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
